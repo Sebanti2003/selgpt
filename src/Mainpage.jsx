@@ -70,7 +70,7 @@ const Mainpage = () => {
     return (
       <>
         <div className="w-screen min-h-screen bg-slate-700 relative bod">
-            <nav className="absolute z-[300] top-0 right-0 left-0 h-16 ">
+            <nav className="absolute z-[300] top-0 right-0 left-0 h-16 bg-slate-700">
                 <div className="w-full h-full flex max-md:justify-center justify-between  items-center gap-2">
                     <div className="md:text-5xl text-xl blur-xs font-bold text-white font-mono">Seb-GPT</div>
                 <Namepart/>
