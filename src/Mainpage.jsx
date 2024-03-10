@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { logout } from "./slices/authslice";
 const Mainpage = () => {
-    const API_URL = import.meta.env.VITE_API_KEY;
+    const API_URL = import.meta.env.VITE_API;
     const dispatch=useDispatch();
     const [answerdelay, setdelay] = useState(false);
     const navigate=useNavigate();
