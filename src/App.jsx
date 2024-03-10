@@ -7,9 +7,8 @@ function App() {
   return(
     <BrowserRouter>
     <Routes>
-      <Route index element={<Navigate to={'/login'}/>}/>
-      <Route path="/login" element={<Login/>}/>
-      
+      <Route index path="/login" element={<Login/>}/>
+
       <Route path="/home" element={<Mainpage/>}/>
     </Routes>
     </BrowserRouter>
